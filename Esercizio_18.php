@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        $film = array("Fight Club", "Interstellar", "American Psycho", "Disaster Movie", "Matteo Ciardi");
+        
+        echo "<select>";
+
+        foreach ($film as $key) {
+            echo "<option>" .$key . "</option>";
+        } 
+
+        echo "</select>"
+    ?>
 </body>
 </html>
